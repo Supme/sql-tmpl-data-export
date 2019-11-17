@@ -1,0 +1,5 @@
+sql_type = "mysql"
+connect_string = "gonder:gonderpass@tcp(127.0.0.1:3306)/gonderdb"
+sql_file = "request.sql"
+header_tmpl_file = "header.tmpl"
+row_tmpl_file = "row.tmpl"

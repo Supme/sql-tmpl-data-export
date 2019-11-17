@@ -1,0 +1,1 @@
+{{byteToStr .email}},{{byteToStr .name}},{{base64enc (sha256byte (byteJoin .email (strToByte "|") .name))}},{{printf "0x%X" (sha256byte (byteJoin .email (strToByte "|") .name)) }}
